@@ -27,8 +27,8 @@
               <p>
                 I am a Master of Science in Computer Science student at the
                 <a href="https://uci.edu" target="_blank" rel="noopener noreferrer">University of
-                  California, Irvine</a> (UCI). I have experience in Java, Python, JavaScript, SQL, C,
-                and many programming frameworks and tools including Spring Boot, React, PyTorch, ROS2, AWS, and Docker.
+                  California, Irvine</a> (UCI). I have experience in Java, Python, JavaScript, SQL, C, Spring Boot,
+                React, PyTorch, Wandb, ROS2, AWS, and Docker.
 
                 <!-- I received my Bechelor's degree in Computer Science and Technology from
                 <a href="https://hust.edu.cn" target="_blank" rel="noopener noreferrer">Huazhong
@@ -47,9 +47,8 @@
               </p>
 
               <a href="mailto:richl16@uci.edu" target="_blank" rel="noopener noreferrer">Email</a> |
-              <a href="https://github.com/LGM70" target="_blank" rel="noopener noreferrer">Github</a> |
-              <a href="https://www.linkedin.com/in/richard-li-b16487239" target="_blank"
-                rel="noopener noreferrer">Linkedin</a> |
+              <a href="https://github.com/lgm70" target="_blank" rel="noopener noreferrer">Github</a> |
+              <a href="https://www.linkedin.com/in/richardli70" target="_blank" rel="noopener noreferrer">Linkedin</a> |
               <a href="https://drive.google.com/file/d/1LLQL3L0lL8wgiHPaRyp84oZ3T7USeYlg/view?usp=sharing"
                 target="_blank" rel="noopener noreferrer">Résumé</a>
 
@@ -80,7 +79,7 @@
               <!-- (Honor) -->
               <br />
               <i>Sept. 2019 - June 2023</i> <br />
-              GPA 3.98/4.0 (<strong>top 2%</strong>)
+              GPA 3.98/4.0 (top 2%)
             </p>
           </div>
         </div>
@@ -92,21 +91,30 @@
         <div class="media">
           <div class="media-body">
             <p class="media-heading">
+              <strong>Artificial Intelligence Engineer Intern</strong> <br />
+              <a href="https://www.linkedin.com/company/mindhomeco/" target="_blank"
+                rel="noopener noreferrer">MindHome</a><br />
+              <i>June 2024 - Present</i> <br />
+              • Developing a fire extinguisher robot from scratch in ROS2, leveraging SLAM for indoor exploration and
+              navigation, and YOLO for flame detection <br />
+            </p>
+          </div>
+        </div>
+
+        <div class="media">
+          <div class="media-body">
+            <p class="media-heading">
               <strong>Machine Learning Research Intern</strong> <br />
-              OPTML Group, Michigan State University <br />
+              <a href="https://www.optml-group.com/" target="_blank" rel="noopener noreferrer">OPTML Group</a>, Michigan
+              State University <br />
               <i>June - Oct. 2022</i> <br />
-
-              • Proposed a novel model <a href="#publications">SMUG</a> that systematically integrates randomized
-              smoothing with the state-of-the-art deep neural network to mitigate the lack of robustness in Magnetic
-              Resonance Imaging (MRI) reconstruction <br />
-
-              • Designed a novel unrolling loss that matches the unrolling architecture of SMUG and a “pre-train +
-              fine-tune” training scheme to improve the effectiveness and efficiency of training SMUG <br />
-
-              • Conducted extensive experiments using Python and PyTorch and improved peak signal-to-noise
-              ratio (PSNR) of MRI reconstruction by 3.1, 7.2, and 1.9 dB on three types of robustness <br />
-
-              • Published in ICASSP 2023 <br />
+              • Proposed a novel framework <a href="#publication">SMUG</a> that systematically integrates the randomized
+              smoothing technique with the state-of-the-art deep convolutional neural network to mitigate the
+              instability in Magnetic Resonance Imaging (MRI) reconstruction <br />
+              • Designed a novel unrolling loss function that matches the unrolling architecture of SMUG and a
+              “pre-train + fine-tune” training scheme to improve the effectiveness and efficiency of training <br />
+              • Conducted extensive experiments using PyTorch and improved the average peak signal-to-noise ratio (PSNR)
+              of reconstructed images by 3.1, 7.2, and 1.9 dB on three types of robustness <br />
             </p>
           </div>
         </div>
@@ -118,20 +126,12 @@
         <div class="media">
           <div class="media-body">
             <p class="media-heading">
-              <strong>TaskTrack</strong> | React, Bootstrap, Axios, Spring Boot, Java, MongoDB <br />
+              <strong>FreeCell Bot</strong> | PyTorch, Gymnasium, Numpy <br />
               <i>Dec. 2023 - Jan. 2024</i> <br />
-              • Developed the TaskTrack website that helps registered users create, update, track, delete tasks, and
-              share tasks with their friends and teams <br />
-
-              • Developed 3 types of web pages in 10 components using React.js and Bootstrap, and leveraged
-              Axios to manage HTTP requests and responses <br />
-
-              • Implemented RESTful APIs in 3 layers using Java, SpringBoot, and MongoDB to handle requests
-              and manage the database, and leveraged JSON Web Token (JWT) and interceptor for user authentication and
-              authorization <br />
-
-              • Built unit tests of the backend APIs with Postman <br />
-              <a href="https://github.com/LGM70/TaskTrack" target="_blank" rel="noopener noreferrer">[GitHub Repo]</a>
+              • Implemented FreeCell game environment using Numpy following Gymnasium API standard with different
+              observation space and action space designs <br />
+              • Training deep reinforcement learning agents using Proximal Policy Optimization (PPO) in PyTorch <br />
+              <a href="https://github.com/lgm70/freecell_bot" target="_blank" rel="noopener noreferrer">[GitHub Repo]</a>
             </p>
           </div>
         </div>
@@ -139,14 +139,29 @@
         <div class="media">
           <div class="media-body">
             <p class="media-heading">
-              <strong>Transfer-based Adversarial Attack with Few Queries</strong> (Undergrad thesis) | PyTorch,
-              Wandb.ai<br />
+              <strong>TaskTrack</strong> | React, Bootstrap, Axios, Spring Boot, Java, MongoDB <br />
+              <i>Dec. 2023 - Jan. 2024</i> <br />
+              • Developed TaskTrack website with React.js and Bootstrap that allows registered users to organize and
+              share tasks with their team, and leveraged Axios to manage HTTP requests and responses <br />
+              • Implemented 15 RESTful APIs using Java, Spring Boot, and MongoDB to handle HTTP requests and
+              manage the database, and utilized JSON Web Token (JWT) and interceptor for user authentication
+              and authorization <br />
+              • Built and conducted unit tests of the backend APIs with Postman <br />
+              <a href="https://github.com/lgm70/TaskTrack" target="_blank" rel="noopener noreferrer">[GitHub Repo]</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="media">
+          <div class="media-body">
+            <p class="media-heading">
+              <strong>Hybrid Adversarial Attacks</strong> (Undergrad thesis) | PyTorch, Wandb<br />
               <i>Jan. - June 2023</i> <br />
-              • Studied black-box adversarial attacks against deep learning models in the image classification task
-              <br />
-              • Reproduced 10 transfer-based and query-based attack approaches in PyTorch <br />
-              • Proposed and Implemented LAQ-NI-FGSM and 2NI-FGSM that combined these two types of attacks <br />
-              • Improved attack success rate by 7-15% with 15-20% fewer queries <br />
+              • Developed a framework using PyTorch and Wandb that implements 12 black-box adversarial attack
+              methods and incorporates 7 baseline convolutional models to facilitate comparison and visualization <br />
+              • Proposed and Implemented two novel hybrid attack methods that leverage both transfer-based and
+              querybased prior knowledge of the victim model, achieved 7-15% higher attack success rate with 15-20% less
+              query overhead on image classification task <br />
               <a href="files/Undergrad_Thesis_Abstract.pdf" target="_blank" rel="noopener noreferrer">[Abstract]</a>
             </p>
           </div>
@@ -175,14 +190,10 @@
               <strong>Jigsaw Puzzle Game Website</strong> | JavaScript, Paper.js <br />
               <i>Oct. - Dec. 2021</i> <br />
 
-              • Built an online jigsaw puzzle game for playing in JavaScript with Paper.js graphics framework <br />
-
-              • Created masks using polynomial interpolation to segment user-uploaded images into a vast number of
-              tiles with respect to the chosen difficulty <br />
-
-              • Bound tile moving and assembling functions to corresponding mouse events in Paper.js to smoothly
-              respond to users' input <br />
-
+              • Built an web-based jigsaw puzzle game in JavaScript with Paper.js graphics framework <br />
+              • Created masks using polynomial interpolation to segment user-uploaded images into a vast number of tiles
+              with respect to the chosen difficulty, and bound tile moving and assembling functions to corresponding
+              mouse events in Paper.js to smoothly respond to player's input <br />
               • Implemented 3 types of hints (highlighting, flashing, and rearranging) and a novel game mode, magnet
               mode, to facilitate puzzle-solving and improve user experience <br />
 
@@ -193,7 +204,7 @@
         </div>
 
         <h2>
-          <a name="publications"></a> Publication
+          <a name="publication"></a> Publication
         </h2>
 
         <div class="media">
@@ -206,7 +217,7 @@
               (<strong>ICASSP</strong>), 2023
               <br />
               <a href="https://arxiv.org/abs/2303.12735" target="_blank" rel="noopener noreferrer">[arXiv]</a>
-              <a href="https://github.com/LGM70/SMUG" target="_blank" rel="noopener noreferrer">[Code]</a>
+              <a href="https://github.com/lgm70/SMUG" target="_blank" rel="noopener noreferrer">[Code]</a>
               <a href="files/ICASSP23_SMUG_Poster.pdf" target="_blank" rel="noopener noreferrer">[Poster]</a>
               <br />
             </p>
